@@ -17,13 +17,6 @@ const layout = () => {
     const [search, setSearch] = useState('');
     const [weather, setWeather] = useState({});
     const [temp,setTemp] = useState('');
-//     fetch("http://localhost:1337/cities?name=Hubli", {
-//   method: "GET",
-//   headers: {
-//      'Content-Type': 'application/json'
-//   },
-// }).then(response => response.json())
-//   .then(data => console.log(data));
 
     const select = (props) => {
         if(props.key === "Enter") {
