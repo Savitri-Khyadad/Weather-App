@@ -16,6 +16,7 @@ const layout = () => {
     const [showWeather, setShowWeather] = useState(false);
     const [search, setSearch] = useState('');
     const [weather, setWeather] = useState({});
+    const [temp,setTemp] = useState('');
 //     fetch("http://localhost:1337/cities?name=Hubli", {
 //   method: "GET",
 //   headers: {
@@ -31,7 +32,7 @@ const layout = () => {
             .then(res => {
                 setSearch('');
                 setWeather(res);
-                console.log(res);
+                setTemp(res.main.temp);
                 setShowWeather(true)
             });
         }
@@ -79,7 +80,7 @@ const layout = () => {
                         <Modal show={showWeather} modalClosed={modalCloseHandler}>
                             <div className={classes.display}>
                                 <div>{weather.name}</div>
-                                <div>{Math.round(weather.temp)}°C</div>
+                                <div>{Math.round(temp)}°C</div>
                                 {/*<div>{weather.weather[0]}</div>
                                 <div>{weather.name}</div>
                                 <div>{Math.round(weather.temp)}°C</div>*/}
