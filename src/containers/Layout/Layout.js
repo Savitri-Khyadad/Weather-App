@@ -74,10 +74,6 @@ const layout = () => {
                             <div className={classes.display}>
                                 <div>{weather.name}</div>
                                 <div>{Math.round(temp)}°C</div>
-                                {/*<div>{weather.weather[0]}</div>
-                                <div>{weather.name}</div>
-                                <div>{Math.round(weather.temp)}°C</div>*/}
-                                
                             </div>
                         </Modal>
                     </div>
@@ -96,10 +92,4 @@ const layout = () => {
         </Auxiliry>
     );
 }
-
-// orderSummary=<OrderSummary ingredients={this.state.ingredients}
-// purchaseCancelled={this.purchaseCancelHandler}
-// purchaseContinued={this.purchaseContinueHandler}
-// price={this.state.totalPrice}/>
-
 export default layout;
