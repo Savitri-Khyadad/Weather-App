@@ -1,7 +1,7 @@
 .HeroImage{
     margin-top: 55px;
     background-color: #555;
-    background: url("../../assets/Images/bg4.jpg") no-repeat center;
+    background: url("../../assets/Images/background-img-02.jpg") no-repeat center;
     position: relative;
     height: 700px;
     background-size: cover;
@@ -14,7 +14,7 @@
 
 .container {
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     overflow: hidden;
@@ -26,12 +26,12 @@
 .container h1 {
     letter-spacing: 0.2em;
     font-size:45px; 
-    margin: 0;
+    margin: 0%;
     text-shadow: 0 0 10px black;
 }
 
 .subtext {
-    margin: 8px;
+    margin: 2px;
     display: block;
     font-size: 16px;
     text-shadow: 0 0 10px black;
@@ -54,11 +54,11 @@
     padding: 10px;
     background-color: #F0F0F0;
     border-radius: 10px 10px 10px 10px;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-size: 20px;
     padding-left: 10px;
-    box-shadow: 3px 3px #D0D0D0;
+    /* box-shadow: 3px 3px #D0D0D0; */
     border-color: rgb(153, 151, 151);
     box-sizing: border-box;
     transition: 0.4s ease;
@@ -99,7 +99,7 @@
     }
 
     .container {
-        top: 50%;
+        top: 45%;
         font-weight: 600;
     }
     .container h1 {
@@ -117,7 +117,7 @@
     
     .searchPart .searchBar{
         width: 500px;
-        margin: 50px;
+        margin: 10px;
         font-size: 20px;
     
     }

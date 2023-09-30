@@ -4,8 +4,8 @@
     position: fixed;
     top: 0;
     left: 0;
-    background-color:inherit;
-    background-blend-mode: overlay;
+    background-color: transparent;
+    /* background-blend-mode: overlay; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,5 +26,6 @@
 @media (max-width:499px) {
     .DesktopOnly{
         display: none;
+        background-color: transparent;
     }
 }
