@@ -4,14 +4,13 @@ import classes from "./Layout.css";
 import Toolbar from "../../components/Navigation/Toolbar/Toolbar";
 import SideDrawer from "../../components/Navigation/Sidedrawer/SideDrawer";
 import Modal from "../../components/UI/Modal/Modal";
-//import
 
 const layout = () => {
   const api = {
     key: process.env.REACT_APP_WEATHER_API_KEY,
     base: "https://api.openweathermap.org/data/2.5/",
   };
-  const [showSideDrawer, setShowSideDrawer] = useState(true);
+  const [showSideDrawer, setShowSideDrawer] = useState(false);
   const [showWeather, setShowWeather] = useState(false);
   const [search, setSearch] = useState("");
   const [weather, setWeather] = useState({});
