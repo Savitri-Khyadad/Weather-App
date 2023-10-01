@@ -1,9 +1,10 @@
 import React from "react";
 import Auxiliary from "../../hoc/Auxiliary/Auxiliary";
+import classes from "./About.css";
 
 const about = () => (
   <Auxiliary>
-    <div> About </div>
+    <div className={classes.HeroImage}></div>
   </Auxiliary>
 );
 

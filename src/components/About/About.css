@@ -1,0 +1,13 @@
+.HeroImage{
+    /* margin-top: 55px; */
+    background-color: #555;
+    background: url("../../assets/Images/background-img-02.jpg") no-repeat center;
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    background-position: center center;
+    background-image: linear-gradient(to bottom );
+}

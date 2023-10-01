@@ -1,0 +1,103 @@
+.HeroImage{
+    /* margin-top: 55px; */
+    background-color: #555;
+    background: url("../../assets/Images/background-img-02.jpg") no-repeat center;
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    background-position: center center;
+    background-image: linear-gradient(to bottom );
+}
+
+.Box{
+    width: 800px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    margin: 5% auto;
+    /* margin-top: 1%; */
+    background: #eaeaea80;
+    padding-bottom: 30px
+}
+
+.Header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.Title{
+    /* color: #98482B; */
+    color: #772F1A;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.UnderLine{
+    width: 140px;
+    height: 3px;
+    background-color:#772F1A;
+    border-radius: 9px;
+}
+
+.Set1 {
+    margin: 8%;
+    display: flex;
+    justify-content: space-around
+}
+
+.Set2 {
+    margin: 8%;
+    display: flex;
+    justify-content: space-around
+}
+
+img {
+    height: 60px;
+}
+
+@media screen and (max-width:650px) {
+    
+.Box{
+    width: 85%;
+    height: 300px;
+    margin: 35% auto;
+    display: flex;
+    flex-direction: column;
+    background: rgba(234,234,234,0.3);
+    padding-bottom: 10px
+}
+
+.Header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.Title{
+    color:#772F1A;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.UnderLine{
+    width: 90px;
+    height: 3px;
+    background-color: #772F1A;
+    border-radius: 8px;
+}
+
+img {
+    height: 40px;
+}
+
+}
