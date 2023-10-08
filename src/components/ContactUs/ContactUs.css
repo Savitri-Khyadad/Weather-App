@@ -19,7 +19,7 @@
     flex-direction: column;
     margin: 5% auto;
     /* margin-top: 1%; */
-    background: #eaeaea80;
+    background: rgba(234, 234, 234, 0.502);
     padding-bottom: 30px
 }
 

@@ -7,7 +7,6 @@ import {
   Routes,
   Navigate,
 } from "react-router-dom";
-import About from "./components/About/About";
 import Contactus from "./components/ContactUs/ContactUs";
 
 const app = () => {
@@ -23,7 +22,6 @@ const app = () => {
       <div className="App">
         <Routes>
           <Route exact path="/" element={<Layout />} />
-          <Route exact path="/about" element={<About />} />
           <Route exact path="/contact" element={<Contactus />} />\
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>

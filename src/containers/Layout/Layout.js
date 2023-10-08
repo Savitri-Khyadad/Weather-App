@@ -25,6 +25,10 @@ const layout = () => {
           setWeather(res);
           setTemp(res.main.temp);
           setShowWeather(true);
+        })
+        .catch((err) => {
+          console.log(err);
+          setShowWeather(true);
         });
     }
   };
@@ -71,7 +75,7 @@ const layout = () => {
             ENTER
           </button>
         </div>
-        {typeof weather !== "undefined" ? (
+        {weather.cod !== "404" ? (
           <div>
             <div>
               <Modal show={showWeather} modalClosed={modalCloseHandler}>
