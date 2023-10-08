@@ -19,7 +19,7 @@ const app = () => {
   //   .then(data => console.log(data));
   return (
     <Router>
-      <div className="App">
+      <div>
         <Routes>
           <Route exact path="/" element={<Layout />} />
           <Route exact path="/contact" element={<Contactus />} />\
